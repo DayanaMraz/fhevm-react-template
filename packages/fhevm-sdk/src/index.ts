@@ -1,6 +1,6 @@
-export * from "./core/index";
-export * from "./storage/index";
-export * from "./fhevmTypes";
-export * from "./FhevmDecryptionSignature";
-export * from "./react/index";
+// Core exports
+export * from './core';
 
+// Type exports
+export type { FhevmConfig, EncryptedInput } from './core/FhevmClient';
+export type { ContractConfig } from './core/ContractClient';
